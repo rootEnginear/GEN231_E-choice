@@ -4,8 +4,9 @@ Vue.config.productionTip = false;
 
 // Buefy
 import Buefy from "buefy";
-import "buefy/dist/buefy.css";
-Vue.use(Buefy);
+Vue.use(Buefy, {
+  defaultIconPack: "fa"
+});
 
 // Router
 import Router from "vue-router";
@@ -16,6 +17,7 @@ function loadView(view) {
 }
 
 const router = new Router({
+  mode: "history",
   routes: [
     {
       path: "/",
@@ -26,11 +28,27 @@ const router = new Router({
       }
     },
     {
-      path: "/about",
-      name: "about",
-      component: loadView("About"),
+      path: "/personality",
+      name: "personality",
+      component: loadView("Personality"),
       meta: {
-        title: "เกี่ยวกับ"
+        title: "คุณมีบุคลิกแบบใด?"
+      }
+    },
+    {
+      path: "/result/:index",
+      name: "result",
+      component: loadView("Result"),
+      meta: {
+        title: "คุณคือ..."
+      }
+    },
+    {
+      path: "/job/:name",
+      name: "job",
+      component: loadView("Job"),
+      meta: {
+        title: "..."
       }
     },
     {
@@ -46,9 +64,13 @@ router.beforeEach((to, from, next) => {
     .slice()
     .reverse()
     .find(record => record.meta && record.meta.title);
-  document.title = `✅ E-choice : ${customTitle ? customTitle.meta.title : ""}`;
+  document.title = `✅ E-choice - ${customTitle ? customTitle.meta.title : ""}`;
   next();
 });
+
+// Smooth scroll fallback
+import smoothscroll from "smoothscroll-polyfill";
+smoothscroll.polyfill();
 
 // PWA
 import "./registerServiceWorker";

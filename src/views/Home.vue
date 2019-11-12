@@ -1,19 +1,32 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <section class="hero is-fullheight">
+      <div class="hero-body" style="justify-content:center">
+        <div class="has-text-centered">
+          <picture style="display:block;margin:auto">
+            <source srcset="@/assets/placeholder_logo.webp" type="image/webp" />
+            <source srcset="@/assets/placeholder_logo.png" type="image/png" />
+            <img
+              src="@/assets/placeholder_logo.png"
+              alt="E-choice"
+              style="max-height:50vh;max-width:50vw"
+            />
+          </picture>
+          <br />
+          <b-button
+            tag="router-link"
+            to="/personality"
+            type="is-primary"
+            size="is-large"
+          >เริ่มทำแบบทดสอบ 🧪</b-button>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "home",
-  components: {
-    HelloWorld
-  },
-  methods: {}
+  name: "home"
 };
 </script>
