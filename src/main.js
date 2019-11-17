@@ -36,7 +36,7 @@ const router = new Router({
       }
     },
     {
-      path: "/result/:index",
+      path: "/result/:type",
       name: "result",
       component: loadView("Result"),
       meta: {

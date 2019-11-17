@@ -203,6 +203,7 @@ $body-size: 17px;
   display: flex;
 }
 .navbar {
+  border-bottom: $primary 2px solid;
   box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
 }
 .navbar-menu {
