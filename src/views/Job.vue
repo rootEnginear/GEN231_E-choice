@@ -25,11 +25,11 @@ import occupationData from "@/assets/data/data.js";
 export default {
   name: "job",
   created() {
-    document.title = `✅ E-choice - ${this.$route.params.name}`;
+    document.title = `E-choice - ${this.$route.params.name}`;
   },
   computed: {
     departments() {
-      return occupationData.occupation[this.$route.params.name];
+      return occupationData.occupation[this.$route.params.name].sort();
     }
   }
 };

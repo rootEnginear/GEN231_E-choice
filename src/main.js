@@ -44,6 +44,14 @@ const router = new Router({
       }
     },
     {
+      path: "/job",
+      name: "job",
+      component: loadView("Joblist"),
+      meta: {
+        title: "ข้อมูลอาชีพ"
+      }
+    },
+    {
       path: "/job/:name",
       name: "job",
       component: loadView("Job"),
@@ -64,16 +72,13 @@ router.beforeEach((to, from, next) => {
     .slice()
     .reverse()
     .find(record => record.meta && record.meta.title);
-  document.title = `✅ E-choice - ${customTitle ? customTitle.meta.title : ""}`;
+  document.title = `E-choice - ${customTitle ? customTitle.meta.title : ""}`;
   next();
 });
 
 // Smooth scroll fallback
 import smoothscroll from "smoothscroll-polyfill";
 smoothscroll.polyfill();
-
-// PWA
-import "./registerServiceWorker";
 
 // App
 import App from "./App.vue";

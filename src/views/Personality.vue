@@ -9,10 +9,7 @@
       <p style="margin:0">เลือกได้ไม่จำกัด ยิ่งเลือกมากคำตอบจะชัดเจนมากขึ้น</p>
     </div>
     <div class="has-text-right">
-      <b-button
-        tag="router-link"
-        :to="`/result/${personalityScoreResult}`"
-        type="is-primary">
+      <b-button tag="router-link" :to="`/result/${personalityScoreResult}`" type="is-primary">
         <span>ดูผลลัพธ์</span>
         <b-icon icon="clipboard-check" size="is-small"></b-icon>
       </b-button>
@@ -107,15 +104,28 @@ export default {
 <style lang="scss" scoped>
 .box > .button-list {
   margin: -0.375rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
   &::v-deep > .control {
-    margin: 0.375rem;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
+    margin: 0.75rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box > .button-list::v-deep > .control > .b-checkbox {
+    white-space: normal;
+    height: auto;
+  }
+}
+@media screen and (min-width: 769px) {
+  .box > .button-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &::v-deep > .control {
+      margin: 0.375rem;
+      flex-basis: 0;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
   }
 }
 </style>

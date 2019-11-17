@@ -189,11 +189,43 @@ export default {
     ],
     แพทย์: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "คณะแพทยศาสตร์",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "จุฬาลงกรณ์มหาวิทยาลัย",
+            link: "https://www.chula.ac.th/academic/faculty-of-medicine/"
+          },
+          {
+            name: "มหาวิทยาลัยธรรมศาสตร์",
+            link: "http://med.tu.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยบูรพา",
+            link: "http://med.buu.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+            link: "http://med.swu.ac.th/th/"
+          },
+          {
+            name: "มหาวิทยาลัยสงขลานครินทร์",
+            link: "https://www.psu.ac.th/th/node/63"
+          },
+          {
+            name: "มหาวิทยาลัยขอนแก่น",
+            link: "https://www.md.kku.ac.th/"
+          },
+          {
+            name: "วิทยาลัยแพทยศาสตร์มงกุฎเกล้า",
+            link: "http://www.pcm.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยนเรศวร",
+            link: "http://www.med.nu.ac.th/fom/th/"
+          },
+          {
+            name: "มหาวิทยาลัยมหาสารคาม",
+            link: "http://www.med.msu.ac.th/web/"
           }
         ]
       }
@@ -264,22 +296,51 @@ export default {
         places: [
           {
             name: "มหาวิทยาลัยธรรมศาสตร์",
-            link: "-"
+            link: "https://www.tbs.tu.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยเกษตรศาสตร์",
+            link: "http://bus.ku.ac.th/new/th/home/"
+          },
+          {
+            name: "มหาวิทยาลัยมหิดล",
+            link: "https://ka.mahidol.ac.th/th/curriculum-ba.php"
+          },
+          {
+            name: "มหาวิทยาลัยศิลปากร",
+            link: "https://www.su.ac.th/th/faculty-management.php"
+          },
+          {
+            name: "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+            link: "http://academic.swu.ac.th/Default.aspx?tabid=7794"
+          },
+          {
+            name: "มหาวิทยาลัยบูรพา",
+            link: "http://www.bbs.buu.ac.th/pages/graduateProgram/mba.php"
+          },
+          {
+            name: "มหาวิทยาลัยเชียงใหม่",
+            link: "http://www.bbs.buu.ac.th/pages/graduateProgram/mba.php"
           }
         ]
       }
     ],
     นักลงทุน: [
       {
-        name: "คณะบริหารธุรกิจ",
+        name: "คณะพาณิชยศาสตร์และการบัญชี",
         places: [
           {
             name: "จุฬาลงกรณ์มหาวิทยาลัย",
-            link: "https://www.chula.ac.th/academic/faculty-of-commerce-and-accountancy/"
-          },
+            link: "https://www.cbs.chula.ac.th/"
+          }
+        ]
+      },
+      {
+        name: "คณะบริหารธุรกิจ",
+        places: [
           {
-            name: "มหาวิทยาลัยเกษตรศาสตร์",
-            link: "http://bus.ku.ac.th/new/th/home/"
+            name: "มหาวิทยาลัยธรรมศาสตร์",
+            link: "https://www.tbs.tu.ac.th/"
           },
           {
             name: "มหาวิทยาลัยมหิดล",
@@ -389,11 +450,73 @@ export default {
     ],
     เจ้าหน้าที่การบิน: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "วิทยาลัยการท่องเที่ยวและการบริการ",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "มหาวิทยาลัยศรีปทุม",
+            link: "https://www.spu.ac.th/fac/tourism/th/program/30/"
+          },
+          {
+            name: "มหาวิทยาลัยหอการค้าไทย",
+            link:
+              "https://www.utcc.ac.th/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AD%E0%B8%B8%E0%B8%95%E0%B8%AA%E0%B8%B2%E0%B8%AB/"
+          }
+        ]
+      },
+      {
+        name: "ศิลปศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยธุรกิจบัณฑิตย์",
+            link: "https://cadt.dpu.ac.th/aviation-business.html"
+          }
+        ]
+      },
+      {
+        name: "หลักสูตรบริหารธุรกิจ",
+        places: [
+          {
+            name: "มหาวิทยาลัยนานาชาติแสตมฟอร์ด",
+            link:
+              "https://admissions.stamford.edu/undergraduate/abm/?utm_source=search&utm_medium=CP-STIU-0000002863&utm_campaign=UG_|_PROGRAM&gclid=EAIaIQobChMIiIe0oI_x5QIVgR0rCh2aaA5jEAAYASAAEgJ0uPD_BwE"
+          }
+        ]
+      },
+      {
+        name: "หลักสูตรนักบินพาณิชย์",
+        places: [
+          {
+            name: "สถาบันการบินพลเรือน",
+            link: "http://www.catc.or.th/2015/index.php/th"
+          }
+        ]
+      },
+      {
+        name: "มนุษยศาสตร์และการจัดการการท่องเที่ยว",
+        places: [
+          {
+            name: "มหาวิทยาลัยกรุงเทพ",
+            link: "https://www.bu.ac.th/th/humanities/airline-business-management"
+          }
+        ]
+      },
+      {
+        name: "สำนักวิชาการจัดการ",
+        places: [
+          {
+            name: "มหาวิทยาลัยแม่ฟ้าหลวง",
+            link:
+              "https://www.mfu.ac.th/education/program/program-bachelor/bachelor-management/becon-program-management/ba-aviation-business-manageme.html"
+          }
+        ]
+      },
+      {
+        name: "วิศวกรรมศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+            link:
+              "https://www.kmutnb.ac.th/faculty-and-agencies/bangkok/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A7%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A7%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%99-%E0%B8%AD%E0%B8%A7%E0%B8%81%E0%B8%B2%E0%B8%A8.aspx"
           }
         ]
       }
@@ -405,7 +528,12 @@ export default {
           {
             name: "มหาวิทยาลัยมหิดล",
             link: "http://www.pt.mahidol.ac.th/th/"
-          },
+          }
+        ]
+      },
+      {
+        name: "คณะสหเวชศาสตร์",
+        places: [
           {
             name: "มหาวิทยาลัยรังสิต",
             link: "https://www.rsu.ac.th/ptrsu/"
@@ -647,33 +775,58 @@ export default {
     ],
     ศิลปิน: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "ศิลปกรรมศาสตร์",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "จุฬาลงกรณ์มหาวิทยาลัย",
+            link: "https://www.chula.ac.th/academic/faculty-of-fine-and-applied-arts/"
+          },
+          {
+            name: "มหาวิทยาลัยขอนแก่น",
+            link: "https://fa.kku.ac.th"
+          },
+          {
+            name: "มหาวิทยาลัยเชียงใหม่",
+            link: "https://www.cmu.ac.th/th/faculty/fine_arts/aboutus"
+          },
+          {
+            name: "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+            link:
+              "http://www.kmitl.ac.th/document/Admission/009R1FacultyOfLiberalArts.pdf"
           }
         ]
       }
     ],
     สถาปนิก: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "สถาปัตยกรรมศาสตร์",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "จุฬาลงกรณ์มหาวิทยาลัย",
+            link: "https://www.chula.ac.th/academic/faculty-of-architecture/"
           }
         ]
       }
     ],
     อาจารย์: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "คณะครุศาสตร์",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "จุฬาลงกรณ์มหาวิทยาลัย",
+            link: "https://www.edu.chula.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+            link: "http://www.edu.swu.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยศิลปากร",
+            link: "https://www.su.ac.th/th/faculty-education.php"
+          },
+          {
+            name: "มหาวิทยาลัยเกษตรศาสตร์",
+            link: "http://edu2.ku.ac.th/2018/under.php"
           }
         ]
       }
@@ -874,11 +1027,39 @@ export default {
     ],
     ครีเอทีฟโฆษณา: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "คณะนิเทศศาสตร์",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "มหาวิทยาลัยกรุงเทพ",
+            link: "https://www.bu.ac.th/th/comarts"
+          },
+          {
+            name: "มหาวิทยาลัยกรุงเทพธนบุรี",
+            link: "https://btu.ac.th/curriculum/faculty-communication-arts/"
+          },
+          {
+            name: "มหาวิทยาลัยเกริก",
+            link: "http://research.krirk.ac.th/index.php"
+          },
+          {
+            name: "มหาวิทยาลัยกรุงเทพ",
+            link: "https://www.bu.ac.th/th/comarts"
+          },
+          {
+            name: "จุฬาลงกรณ์มหาวิทยาลัย",
+            link: "http://research.krirk.ac.th/index.php"
+          },
+          {
+            name: "มหาวิทยาลัยเจ้าพระยา",
+            link: "https://www.facebook.com/Communication.Arts.CPU"
+          },
+          {
+            name: "มหาวิทยาลัยเซนต์จอห์น",
+            link: "https://www.sju.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยสยาม",
+            link: "https://nitade.siam.edu/"
           }
         ]
       }
@@ -969,33 +1150,169 @@ export default {
     ],
     นักการทูต: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "คณะรัฐศาสตร์",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "จุฬาลงกรณ์มหาวิทยาลัย",
+            link: "https://www.polsci.chula.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+            link: "https://www.polsci.soc.swu.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตปัตตานี",
+            link: "http://polsci.pn.psu.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยธรรมศาสตร์",
+            link: "http://www.polsci.tu.ac.th/nw_polsci/"
+          }
+        ]
+      },
+      {
+        name: "วิทยาลัยการเมืองการปกครอง",
+        places: [
+          {
+            name: "มหาวิทยาลัยมหาสารคาม",
+            link: "http://copag.msu.ac.th/th/index.php"
+          }
+        ]
+      },
+      {
+        name: "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยขอนแก่น",
+            link: "https://hs.kku.ac.th/pages/home"
           }
         ]
       }
     ],
     นักการเมือง: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "คณะรัฐศาสตร์",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "จุฬาลงกรณ์มหาวิทยาลัย",
+            link: "“https://www.polsci.chula.ac.th/”"
+          },
+          {
+            name: "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+            link: "https://www.polsci.soc.swu.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตปัตตานี",
+            link: "“http://polsci.pn.psu.ac.th/”"
+          },
+          {
+            name: "มหาวิทยาลัยธรรมศาสตร์",
+            link: "“http://www.polsci.tu.ac.th/nw_polsci/”"
+          }
+        ]
+      },
+      {
+        name: "วิทยาลัยการเมืองการปกครอง",
+        places: [
+          {
+            name: "มหาวิทยาลัยมหาสารคาม",
+            link: "“http://copag.msu.ac.th/th/index.php”"
+          }
+        ]
+      },
+      {
+        name: "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยขอนแก่น",
+            link: "“https://hs.kku.ac.th/pages/home”"
+          }
+        ]
+      },
+      {
+        name: "คณะรัฐศาสตร์และรัฐประศาสนศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยเชียงใหม่",
+            link: "“https://www.pol.cmu.ac.th/”"
+          }
+        ]
+      },
+      {
+        name: "คณะรัฐศาสตร์และนิติศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยบูรพา",
+            link: "“https://www.polsci.soc.swu.ac.th/”"
+          }
+        ]
+      },
+      {
+        name: "คณะสังคมศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยเกษตรศาสตร์",
+            link: "“http://www.polsci.soc.ku.ac.th/”"
+          },
+          {
+            name: "มหาวิทยาลัยนเรศวร",
+            link: "“http://www.socsci.nu.ac.th/th/”"
           }
         ]
       }
     ],
     นักจิตวิทยา: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "คณะจิตวิทยา",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "จุฬาลงกรณ์มหาวิทยาลัย",
+            link: "“https://www.chula.ac.th/academic/faculty-of-psychology/”"
+          }
+        ]
+      },
+      {
+        name: "คณะมนุษยศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+            link: "“http://hu.swu.ac.th/”"
+          }
+        ]
+      },
+      {
+        name: "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยบูรพา",
+            link: "“http://www.huso.buu.ac.th/default.asp”"
+          }
+        ]
+      },
+      {
+        name: "คณะสังคมศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยเกษตรศาสตร์",
+            link: "“http://psy.soc.ku.ac.th/”"
+          }
+        ]
+      },
+      {
+        name: "คณะศึกษาศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยศิลปากร",
+            link: "https://www.su.ac.th/th/index.php"
+          }
+        ]
+      },
+      {
+        name: "คณะศิลปศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยธรรมศาสตร์",
+            link: "“https://arts.tu.ac.th/index.html”"
           }
         ]
       }
@@ -1089,11 +1406,50 @@ export default {
     ],
     เกษตรกร: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "คณะเกษตรศาสตร์และเทคโนโลยี",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน (วิทยาเขตสุรินทร์)",
+            link: "http://fat.surin.rmuti.ac.th/index.php"
+          }
+        ]
+      },
+      {
+        name: "คณะผลิตกรรมการเกษตร",
+        places: [
+          {
+            name: "มหาวิทยาลัยแม่โจ้",
+            link: "http://www.ap.mju.ac.th"
+          }
+        ]
+      },
+      {
+        name: "คณะเกษตรศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยเชียงใหม่",
+            link: "http://www.agri.cmu.ac.th/2017"
+          },
+          {
+            name: "มหาวิทยาลัยขอนแก่น",
+            link: "https://www.ku.ac.th/department/agri.html"
+          },
+          {
+            name: "มหาวิทยาลัยเกษตรศาสตร์",
+            link: "http://agri.kps.ku.ac.th/2018/index.php"
+          },
+          {
+            name: "มหาวิทยาลัยราชภัฏอุบลราชธานี",
+            link: "http://agri.ubru.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยราชภัฏอุตรดิตถ์",
+            link: "http://aggie.uru.ac.th/public/"
+          },
+          {
+            name: "มหาวิทยาลัยนราธิวาสราชครินทร์",
+            link:
+              "http://www.pnu.ac.th/index.php/component/content/category/146-2014-11-09-10-53-26?layout=blog&start=20"
           }
         ]
       }
@@ -1111,11 +1467,56 @@ export default {
     ],
     วิศวกร: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "วิศวกรรมศาสตร์",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "จุฬาลงกรณ์มหาวิทยาลัย",
+            link: "https://www.eng.chula.ac.th/th/"
+          },
+          {
+            name: "มหาวิทยาลัยเกษตรศาสตร์",
+            link: "https://www.eng.ku.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยธรรมศาสตร์",
+            link: "https://engr.tu.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+            link: "http://www.eng.kmutt.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+            link: "https://www.eng.kmutnb.ac.th/web/"
+          },
+          {
+            name: "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+            link: "https://engineer.kmitl.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยมหิดล",
+            link: "https://www.eg.mahidol.ac.th/egmu/"
+          },
+          {
+            name: "มหาวิทยาลัยบูรพา",
+            link: "http://www.eng.buu.ac.th/"
+          },
+          {
+            name: "มหาวิทยาลัยเชียงใหม่",
+            link: "https://www.eng.cmu.ac.th/site/"
+          },
+          {
+            name: "มหาวิทยาลัยขอนแก่น",
+            link: "https://www.en.kku.ac.th/web/"
+          }
+        ]
+      },
+      {
+        name: "วิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+        places: [
+          {
+            name: "มหาวิทยาลัยศิลปากร",
+            link: "http://www.eng.su.ac.th/index.php"
           }
         ]
       }
@@ -1189,8 +1590,7 @@ export default {
           },
           {
             name: "มหาวิทยาลัยธรรมศาสตร์",
-            link:
-              "http://www.fineart.tu.ac.th/index.php/th/textileart#:~:targetText=%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9E%E0%B8%B1%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%A0%E0%B8%A3%E0%B8%93%E0%B9%8C,%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A2"
+            link: "http://www.fineart.tu.ac.th/index.php/th/"
           },
           {
             name: "มหาวิทยาลัยรังสิต",
@@ -1343,11 +1743,56 @@ export default {
     ],
     งานให้คำปรึกษา: [
       {
-        name: "<ชื่อคณะ/ภาควิชาที่เปิดสอน>",
+        name: "คณะจิตวิทยา",
         places: [
           {
-            name: "<ชื่อมหาวิทยาลัยที่เปิดสอน>",
-            link: "<ลิงก์มหาวิทยาลัยที่เปิดสอน>"
+            name: "จุฬาลงกรณ์มหาวิทยาลัย",
+            link: "“https://www.chula.ac.th/academic/faculty-of-psychology/”"
+          }
+        ]
+      },
+      {
+        name: "คณะมนุษยศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+            link: "“http://hu.swu.ac.th/”"
+          }
+        ]
+      },
+      {
+        name: "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยบูรพา",
+            link: "“http://www.huso.buu.ac.th/default.asp”"
+          }
+        ]
+      },
+      {
+        name: "คณะสังคมศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยเกษตรศาสตร์",
+            link: "“http://psy.soc.ku.ac.th/”"
+          }
+        ]
+      },
+      {
+        name: "คณะศึกษาศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยศิลปากร",
+            link: "“https://www.su.ac.th/th/index.php”"
+          }
+        ]
+      },
+      {
+        name: "คณะศิลปศาสตร์",
+        places: [
+          {
+            name: "มหาวิทยาลัยธรรมศาสตร์",
+            link: "“https://arts.tu.ac.th/index.html”"
           }
         ]
       }

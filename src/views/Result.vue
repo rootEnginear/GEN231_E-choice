@@ -18,12 +18,12 @@
       <div v-for="(job,index) in personType.job" :key="index" class="column is-6">
         <router-link :to="`/job/${job}`">
           <article class="box">
-            <div class="level">
+            <div class="level is-mobile">
               <div class="level-left">{{job}}</div>
               <div class="level-right">
                 <b-button type="is-primary" outlined>
                   <b-icon icon="info-circle" size="is-small"></b-icon>
-                  <span>รายละเอียด</span>
+                  <span class="is-hidden-mobile">รายละเอียด</span>
                 </b-button>
               </div>
             </div>
@@ -124,7 +124,7 @@ import occupationData from "@/assets/data/data.js";
 export default {
   name: "result",
   created() {
-    document.title = `✅ E-choice - คุณคือ "${this.personType.name}"`;
+    document.title = `E-choice - คุณคือ "${this.personType.name}"`;
   },
   data() {
     return {
@@ -154,11 +154,11 @@ export default {
       );
       let unionData = { type: "", name: "", job: [] };
       availableOccupationData.forEach(el => {
-        unionData.type = [unionData.type, el.type].join("/");
+        unionData.type = [unionData.type, el.type].join(", ");
         unionData.name = [unionData.name, el.name].join("/");
         unionData.job = [...new Set(unionData.job.concat(el.job))];
       });
-      unionData.type = unionData.type.substr(1);
+      unionData.type = unionData.type.substr(2);
       unionData.name = unionData.name.substr(1);
       unionData.job = unionData.job.sort();
       return unionData;

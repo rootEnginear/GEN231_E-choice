@@ -215,7 +215,7 @@ $body-size: 17px;
 }
 
 #app {
-  background: url("assets/bg/bg.jpg");
+  background: url("assets/bg.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
