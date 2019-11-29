@@ -76,6 +76,13 @@ router.beforeEach((to, from, next) => {
   next();
 });
 
+// Analytics
+import VueAnalytics from "vue-analytics";
+Vue.use(VueAnalytics, {
+  id: "UA-118881298-5",
+  router
+});
+
 // Smooth scroll fallback
 import smoothscroll from "smoothscroll-polyfill";
 smoothscroll.polyfill();
